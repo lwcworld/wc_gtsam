@@ -35,15 +35,23 @@ include_directories(
 
 ## Declare a C++ library
 add_library(${PROJECT_NAME}
-  src/${PROJECT_NAME}_node.cpp
+#  src/Pose2SLAMExample_node.cpp
+  src/imufactorsexample_node.cpp
 )
 target_link_libraries(${PROJECT_NAME}
   gtsam
   ${catkin_LIBRARIES}
 )
 
-add_executable(${PROJECT_NAME}_node src/wc_gtsam_node.cpp)
-target_link_libraries(${PROJECT_NAME}_node
+#add_executable(Pose2SLAMExample_node src/Pose2SLAMExample_node.cpp)
+#target_link_libraries(Pose2SLAMExample_node
+#  ${PROJECT_NAME}
+#  gtsam
+#  ${catkin_LIBRARIES}
+#)
+
+add_executable(imufactorsexample_node src/imufactorsexample_node.cpp)
+target_link_libraries(imufactorsexample_node
   ${PROJECT_NAME}
   gtsam
   ${catkin_LIBRARIES}

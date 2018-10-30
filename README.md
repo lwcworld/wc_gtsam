@@ -3,7 +3,19 @@ guide
 ===================================================
 Prerequisites
 ------
-- gtsam (https://bitbucket.org/gtborg/gtsam) - checked version is '4.0.0-alpha2'
+- gtsam (https://bitbucket.org/gtborg/gtsam) - checked version is '4.0.0-alpha2' 
+1. go to catkin workspace ```cd catkin_ws/src```
+2. clone gtsam file (the folder name should be gtsam)
+3. in the 'gtsam'
+mkdir build
+cd build
+cmake ..
+make install
+4. go to 'catkin_ws' folder, and build catkin
+```
+catkin build gtsam
+```
+
 - qtcreator-ros IDE (https://github.com/lwcworld/wc_qtcreator_ros_plugin)
 
 Original version of CMakeLists.txt

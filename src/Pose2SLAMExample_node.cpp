@@ -38,7 +38,6 @@
 // for each variable, held in a Values container.
 #include <gtsam/nonlinear/Values.h>
 
-
 using namespace std;
 using namespace gtsam;
 
