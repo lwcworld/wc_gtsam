@@ -1,5 +1,5 @@
 # wc_gtsam
-Qtcreator-ROS-Plugin install guide
+guide
 ===================================================
 Prerequisites
 ------
