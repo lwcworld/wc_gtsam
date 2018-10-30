@@ -11,10 +11,7 @@ mkdir build
 cd build
 cmake ..
 make install
-4. go to 'catkin_ws' folder, and build catkin
-```
-catkin build gtsam
-```
+4. go to 'catkin_ws' folder, and build catkin ```catkin build gtsam```
 
 - qtcreator-ros IDE (https://github.com/lwcworld/wc_qtcreator_ros_plugin)
 
