@@ -257,7 +257,6 @@ int main(int argc, char* argv[])
               gps_quat.x(), gps_quat.y(), gps_quat.z(), gps_quat.w());
 
       output_time += 1.0;
-
     } else {
       cerr << "ERROR parsing file\n";
       return 1;

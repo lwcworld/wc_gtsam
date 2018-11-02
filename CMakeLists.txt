@@ -36,7 +36,8 @@ include_directories(
 ## Declare a C++ library
 add_library(${PROJECT_NAME}
 #  src/Pose2SLAMExample_node.cpp
-  src/imufactorsexample_node.cpp
+#  src/imufactorsexample_node.cpp
+  src/VisualISAM2Example_node.cpp
 )
 target_link_libraries(${PROJECT_NAME}
   gtsam
@@ -50,8 +51,15 @@ target_link_libraries(${PROJECT_NAME}
 #  ${catkin_LIBRARIES}
 #)
 
-add_executable(imufactorsexample_node src/imufactorsexample_node.cpp)
-target_link_libraries(imufactorsexample_node
+#add_executable(imufactorsexample_node src/imufactorsexample_node.cpp)
+#target_link_libraries(imufactorsexample_node
+#  ${PROJECT_NAME}
+#  gtsam
+#  ${catkin_LIBRARIES}
+#)
+
+add_executable(VisualISAM2Example_node src/VisualISAM2Example_node.cpp)
+target_link_libraries(VisualISAM2Example_node
   ${PROJECT_NAME}
   gtsam
   ${catkin_LIBRARIES}
