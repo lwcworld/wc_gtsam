@@ -6,20 +6,21 @@ Prerequisites
 - gtsam (https://bitbucket.org/gtborg/gtsam) - checked version is '4.0.0-alpha2' 
 1. go to catkin workspace ```cd catkin_ws/src```
 2. clone gtsam file (the folder name should be gtsam)
+3. to use cython module, turn on 'GTSAM_INSTALL_CYTHON_TOOLBOX' in CMakeLists.txt
 3. in the 'gtsam'
 ```
 mkdir build
-```
-```
 cd build
-```
-```
 cmake ..
-```
 ```
 make install
 ```
 4. go to 'catkin_ws' folder, and build catkin ```catkin build gtsam```
+5. if use cython, export some python paths
+```
+export PYTHONPATH=$PYTHONPATH:/home/lwcworld/catkin_ws/build/gtsam/cython
+export PYTHONPATH=$PYTHONPATH:/home/lwcworld/catkin_ws/src/wc_gtsam/scripts
+```
 
 - qtcreator-ros IDE (https://github.com/lwcworld/wc_qtcreator_ros_plugin)
 
