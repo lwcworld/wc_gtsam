@@ -12,7 +12,6 @@ Prerequisites
 mkdir build
 cd build
 cmake ..
-```
 make install
 ```
 4. go to 'catkin_ws' folder, and build catkin ```catkin build gtsam```
