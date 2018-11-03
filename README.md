@@ -21,7 +21,8 @@ export PYTHONPATH=$PYTHONPATH:/home/lwcworld/catkin_ws/build/gtsam/cython
 export PYTHONPATH=$PYTHONPATH:/home/lwcworld/catkin_ws/src/wc_gtsam/scripts
 ```
 
-- qtcreator-ros IDE (https://github.com/lwcworld/wc_qtcreator_ros_plugin)
+- qtcreator-ros IDE (https://github.com/lwcworld/wc_qtcreator_ros_plugin) for cpp project
+- Pycharm IDE (https://www.jetbrains.com/pycharm/) for python/cython project
 
 Original version of CMakeLists.txt
 ------

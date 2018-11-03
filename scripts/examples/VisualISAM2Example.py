@@ -18,6 +18,8 @@ import numpy as np
 from mpl_toolkits.mplot3d import Axes3D  # pylint: disable=W0611
 
 import gtsam
+#import gtsam.utils.plot as gtsam_plot
+#from gtsam.examples import SFMdata
 import utils.plot as gtsam_plot
 from examples import SFMdata
 

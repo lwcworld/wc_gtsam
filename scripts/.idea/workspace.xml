@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f877ef-9e1d-40d8-97c6-815e739dc35d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__init__.py.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/ImuFactorExample2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/OdometryExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/PlanarSLAMExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/Pose2SLAMExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/SFMdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/Untitled.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/VisualISAM2Example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/experiments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/gtsam_test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_Cal3Unified.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_JacobianFactor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_KalmanFilter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_LocalizationExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_OdometryExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_PlanarSLAMExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_Pose2SLAMExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_Pose3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_Pose3SLAMExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_PriorFactor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_SFMExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_Scenario.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_SimpleCamera.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_StereoVOExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_Values.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_VisualISAMExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/circlePose3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/visual_data_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/visual_isam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFMdata.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFMdata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VisualISAM2Example.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VisualISAM2Example.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/VisualISAM2Example_node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/VisualISAM2Example_node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/VisualISAM2Example.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/VisualISAM2Example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/scripts$VisualISAM2Example.coverage" NAME="VisualISAM2Example Coverage Results" MODIFIED="1541212097532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/scripts$VisualISAM2Example.coverage" NAME="VisualISAM2Example Coverage Results" MODIFIED="1541214504214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="747877767">
@@ -92,11 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/VisualISAM2Example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="e#369#406#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="79">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="21" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -222,8 +180,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39958158" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -236,7 +194,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.32946378" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.37755665" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -276,11 +234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/VisualISAM2Example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#369#406#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="79">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="21" selection-end-column="35" />
         </state>
       </provider>
     </entry>
