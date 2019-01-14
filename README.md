@@ -17,7 +17,7 @@ make install
 4. go to 'catkin_ws' folder, and build catkin ```catkin build gtsam```
 5. if use cython, export some python paths
 ```
-export PYTHONPATH=$PYTHONPATH:/home/lwcworld/catkin_ws/build/gtsam/cython
+export PYTHONPATH=$PYTHONPATH:/home/lwc/catkin_ws/build/gtsam/python/gtsam
 export PYTHONPATH=$PYTHONPATH:/home/lwcworld/catkin_ws/src/wc_gtsam/scripts
 ```
 
